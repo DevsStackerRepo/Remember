@@ -1,0 +1,104 @@
+
+/* body */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header */
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+
+/* main */
+main{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Descendant Selector */
+.form-control input {
+    width: 500px;
+    padding: 6px 5px;
+    border: 1px solid #000;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-control button {
+    margin-left: 20px;
+    width: 2em;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    font-size: 34px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+}
+
+.button-filters button {
+    margin-left: 10px;
+    padding: 10px;
+    width: 14em;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+}
+
+.todoItemButtons button{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* Classes */
+.remember-title{
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.remember-logo{
+    width: 45px;
+    height: 45px;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+
+.button-filters{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.todoList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoItem{
+    border: 1px solid #000;
+    width: 700px;
+    padding: 5px;
+    border-radius:3px;
+    margin-top: 10px;
+}
+
+.todoItemButtons{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
