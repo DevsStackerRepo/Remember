@@ -1,0 +1,20 @@
+[
+    {
+        "id":"task-0",
+        "category":"completed",
+        "task":"Learn New Skill",
+        "date": "Date.now()"
+    },
+    {
+        "id":"task-1",
+        "category":"active",
+        "task":"Read Deep Work Book",
+        "date": "Date.now()"
+    },
+    {
+        "id":"task-2",
+        "category":"all",
+        "task":"Sold My Courses",
+        "date": "Date.now()"
+    }
+]
